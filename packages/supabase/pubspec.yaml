@@ -10,7 +10,10 @@ environment:
 
 dependencies:
   functions_client: ^1.3.2
-  gotrue: any
+  gotrue: 
+    git:
+      url: https://github.com/tylandercasper/supabase-flutter.git
+      path: packages/gotrue
   http: '>=0.13.5 <2.0.0'
   postgrest: ^1.5.2
   realtime_client: ^1.4.0
